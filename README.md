@@ -12,8 +12,8 @@ docker-compose up -d
 // 確認
 docker-compose ps
 
-// インスペクション(java)
-docker-compose exec java bash
+// インスペクション(play)
+docker-compose exec play bash
 
 // javaコンパイル(別ディレクトリでコンパイル）
 :/usr/src# javac app/*/*.java -d classes

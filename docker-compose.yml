@@ -1,9 +1,9 @@
 version: '3.6'
 services:
-  java:
+  play:
     build: ./docker/java
     ports:
-      - 8000:8000
+      - 8001:8001
     tty: true
     volumes: 
       - .:/usr/src:cached
